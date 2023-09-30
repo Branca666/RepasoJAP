@@ -11,12 +11,14 @@ Crea una página web con los siguientes elementos:
 la lista de temas en la página.
 - Una lista HTML donde se mostrarán los temas de estudio agregados con su
 respectiva imagen.
+
 Cuando el usuario haga clic en el botón "Agregar tema":
 Utiliza fetch para obtener una imagen aleatoria de "Lorem Picsum" para representar
 el tema.
 Muestra la imagen junto con el tema en la lista de temas en la página.
 Implementa la capacidad de marcar los temas como completados o eliminarlos de
 la lista. Puedes agregar botones "Completar" y "Eliminar" junto a cada tema.
+
 Por último queremos comprobar y demostrar que todo funciona correctamente, por
 lo tanto agregamos los temas que se han dado y serán fundamentales para la
 próxima evaluación
