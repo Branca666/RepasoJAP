@@ -1,0 +1,130 @@
+/* Estilos globales de la página */
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto principal */
+    background-color: #f0f0f0; /* Color de fondo de la página */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #fff; /* Color de fondo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del contenedor */
+    border-radius: 5px; /* Bordes redondeados del contenedor */
+    margin-top: 20px; /* Margen superior para separar del borde superior */
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center; /* Centra el texto del encabezado */
+    color: #333; /* Color del texto del encabezado */
+}
+
+/* Contenedor de entrada de texto y botón */
+.input-container {
+    display: flex; /* Usa un diseño flexible para alinear elementos */
+    justify-content: space-between; /* Espacio uniforme entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-bottom: 20px; /* Espaciado inferior para separar del contenido siguiente */
+}
+
+/* Campo de entrada de texto */
+input[type="text"] {
+    flex-grow: 1; /* Permitir que el campo de entrada de texto crezca con el espacio disponible */
+    padding: 10px; /* Espaciado interno del campo de entrada de texto */
+    border: 1px solid #ccc; /* Borde del campo de entrada de texto */
+    border-radius: 3px; /* Bordes redondeados del campo de entrada de texto */
+    font-size: 16px; /* Tamaño de fuente del campo de entrada de texto */
+}
+
+/* Estilos para el botón */
+.btn {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde en el botón */
+    border-radius: 3px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    transition: background-color 0.3s; /* Transición suave del color de fondo al pasar el cursor */
+}
+
+/* Estilos de hover para el botón */
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo cuando el cursor está sobre el botón */
+}
+
+/* Estilos de la lista de tareas */
+.task-list {
+    list-style: none; /* Elimina los marcadores de lista predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+/* Elemento de tarea */
+.task-item {
+    display: flex; /* Usa un diseño flexible para alinear elementos */
+    justify-content: space-between; /* Espacio uniforme entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 10px; /* Espaciado interno del elemento de tarea */
+    margin: 10px 0; /* Espaciado exterior para separar las tareas */
+    background-color: #fff; /* Color de fondo del elemento de tarea */
+    border: 1px solid #ccc; /* Borde del elemento de tarea */
+    border-radius: 3px; /* Bordes redondeados del elemento de tarea */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del elemento de tarea */
+}
+
+/* Detalles de la tarea */
+.task-details {
+    display: flex; /* Usa un diseño flexible para alinear elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+/* Imagen de la tarea */
+.task-image {
+    width: 60px; /* Ancho de la imagen de la tarea */
+    height: 60px; /* Altura de la imagen de la tarea */
+    margin-right: 10px; /* Margen derecho para separar la imagen del texto */
+}
+
+/* Nombre de la tarea */
+.task-name {
+    font-size: 18px; /* Tamaño de fuente del nombre de la tarea */
+    color: #333; /* Color del texto del nombre de la tarea */
+}
+
+/* Acciones de la tarea */
+.task-actions {
+    display: flex; /* Usa un diseño flexible para alinear elementos */
+}
+
+/* Estilos para el botón "Completar" */
+.btn-complete {
+    background-color: #28a745; /* Color de fondo del botón "Completar" */
+    margin-right: 5px; /* Margen derecho para separar los botones */
+}
+
+/* Estilos para el botón "Eliminar" */
+.btn-delete {
+    background-color: #dc3545; /* Color de fondo del botón "Eliminar" */
+}
+
+/* Estilos cuando una tarea está completada */
+.task-item.completed .task-name {
+    text-decoration: line-through; /* Tacha el nombre de la tarea cuando está completada */
+}
+
+.task-actions button {
+    margin-right: 5px; /* Margen derecho para separar los botones */
+    text-decoration: none; /* Evitar que el texto de los botones se tache */
+}
+
+/* Estilos para el botón "Completar" cuando está activo */
+.btn-complete.active {
+    background-color: #bce1e7; /* Cambia el color cuando el botón está activo */
+    color: #fff; /* Color del texto del botón cuando está activo */
+}
